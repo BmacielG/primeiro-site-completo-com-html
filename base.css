@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+}
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: white;
+}
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.menu {
+  width: 15%;
+  background-color: white;
+  padding: 60px 10px 0px;
+}
+.header {
+  background-color: #fff;
+  min-height: 150px;
+  text-align: 0;
+  padding: 0px 180px 0px;
+}
+.content {
+  background-color: white;
+  min-height: 300px;
+  padding: 20px;
+}
+.footer {
+  background-color: white;
+  min-height: 150px;
+}
+.gradiente {
+  background: linear-gradient(90deg, #03fa7e, #6e03fa);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
